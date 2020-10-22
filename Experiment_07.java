@@ -6,10 +6,10 @@ public class Experiment_07
 	public static void main(String[] args) {
 	    Random rn=new Random();
 		int count=0;
-		int ar1[] = new int[1000];
-		int ar2[] = new int[1000];
+		int ar1[] = new int[10000];
+		int ar2[] = new int[10000];
 		System.out.println("pair of dices with same number are");
-		for(int i=0;i<1000;i++){
+		for(int i=0;i<10000;i++){
 		    ar1[i]=1+rn.nextInt(6);
 		    ar2[i]=1+rn.nextInt(6);
 		    
