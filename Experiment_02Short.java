@@ -22,7 +22,6 @@ class ElectBill{
   double calculate_bill(){
     int choice;
     if(EBConn=="domenstic")
-    Object Oriented Programming L - 3 Object Oriented Programming Laboratory
     choice=1;
     else
     choice=2;
@@ -63,7 +62,7 @@ class ElectBill{
     System.out.println("Total Amount(Rs.): "+Bill);
   }
 }
-class ElectBillGen{
+public class ElectBillGen{
   public static void main (String[] args){
     ElectBill b=new ElectBill();
     b.input_data();
