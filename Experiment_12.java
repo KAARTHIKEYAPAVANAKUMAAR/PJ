@@ -8,11 +8,11 @@ public class ExceptionHandling{
 			int b= sc.nextInt();
 			int c=a/b;
 		}
-		catch(ArithmaticExcxeption ae){
+		catch(ArithmeticExcxeption ae){
 			System.out.print("Arithmatic Exception occured");
 		}
 		catch(InputMismatchException ie){
-			System.out,print("Input mismatch exception occured");
+			System.out.print("Input mismatch exception occured");
 		}
 	}
 }
