@@ -35,7 +35,7 @@ class circle extends shape{
 public class Experiment11_shape{
     public static void main(String args[]){
         shape obj=new rectangle();
-        obj.printArea();;
+        obj.printArea();
         shape obj1=new triangle();
         obj1.printArea();
         shape obj2=new circle();
