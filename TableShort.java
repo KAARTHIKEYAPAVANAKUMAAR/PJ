@@ -1,4 +1,3 @@
-package javalab;
 import java.awt.*; 
 import javax.swing.*; 
 public class TableShort extends JFrame{ 
