@@ -2,8 +2,7 @@ package javalab;
 import javax.swing.*;
 import javax.swing.tree.DefaultMutableTreeNode;
 public class Tree {
-	//JFrame j;
-	Tree(){
+	public Tree(){
 		DefaultMutableTreeNode Mycomputer=new DefaultMutableTreeNode("My computer");
 		DefaultMutableTreeNode cDrive=new DefaultMutableTreeNode("c Drive");
 		DefaultMutableTreeNode dDrive=new DefaultMutableTreeNode("d Drive");
@@ -21,5 +20,4 @@ public class Tree {
 	public static void main(String[] args) {
 		new Tree();
 	}
-
 }
