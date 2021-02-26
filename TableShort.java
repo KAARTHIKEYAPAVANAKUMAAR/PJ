@@ -5,8 +5,8 @@ public class TableShort extends JFrame{
 	public TableShort(){ 
 		String [] columnNames = { "Name","RollNo"}; 
 		Object [][] data = {{"Kaarthikeya","3"},{"Pavana","7"},{"Kumaar","11"}}; 
-		JTable table = new JTable(data, columnNames); 
-		JScrollPane scrollPane = new JScrollPane(table); 
+		JTable table = new JTable(data, columnNames);        //->IMPORTANT LINE
+		JScrollPane scrollPane = new JScrollPane(table);    //->IMPORTANT LINE 
 		add(scrollPane); 
 	} 
 	public static void main(String args[]){ 
