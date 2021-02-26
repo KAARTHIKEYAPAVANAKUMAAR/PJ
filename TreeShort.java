@@ -10,7 +10,7 @@ public class Tree {
 		Mycomputer.add(cDrive);
 		Mycomputer.add(dDrive);
 		dDrive.add(Images);
-		JTree tree=new JTree(Mycomputer);
+		JTree tree=new JTree(Mycomputer);  //->IMPORTANT LINE
 		JFrame j=new JFrame(); 
 		j.add(tree); 
 		j.setSize(500,500); 
